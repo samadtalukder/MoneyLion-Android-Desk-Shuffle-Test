@@ -20,22 +20,29 @@ The classes needing code completion: MainActivity.kt. DeckAdapter.kt, and DealtC
 Complete the code in the following methods and lines where comments are written:
 
 ```sh
-setupListeners() [MainActivity.kt]: Write code to shuffle the dealt cards and update the grid in the UI.
+setupListeners() [MainActivity.kt]:
+Write code to shuffle the dealt cards and update the grid in the UI.
 ```
 
 ```sh
-setupDealtCards() [MainActivity.kt]: Write code to attach the adapter to the dealtCards GridView and update the selected card in the dealtCards using the position provided by the OnltemClickListener callback.
+setupDealtCards() [MainActivity.kt]:
+Write code to attach the adapter to the dealtCards GridView and update the selected card in the dealtCards
+using the position provided by the OnltemClickListener callback.
 ```
 
 ```sh
-setupDeck() [MainActivity.kt]: Write code to attach the adapter to the deck RecyclerView.
+setupDeck() [MainActivity.kt]:
+Write code to attach the adapter to the deck RecyclerView.
 ```
 
 ```sh
-swapDealtCardWithDeckCard(deckPosition: Int) [MainActivity.kt]: Write code to swap the selected card in the dealtCards with the selected card from the deck.
+swapDealtCardWithDeckCard(deckPosition: Int) [MainActivity.kt]:
+Write code to swap the selected card in the dealtCards with the selected card from the deck.
 ```
 
 ```sh
-bindImageAndSetListener(binding: DeckItemBinding, position: Int, drawableld: Int) [DeckAdapter.kt]: Write code to bind the image to the ViewHolder and invoke the itemTapListener when any item is tapped.
+bindImageAndSetListener(binding: DeckItemBinding, position: Int, drawableld: Int) [DeckAdapter.kt]:
+Write code to bind the image to the ViewHolder and invoke the itemTapListener when any item is tapped.
 ```
 ## Demo
+![Demo](https://github.com/samadtalukder/MoneyLion-Android-Desk-Shuffle-Test/blob/master/demo/demo.gif)
